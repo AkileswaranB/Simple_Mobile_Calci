@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    android:background="#166974">
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Simple Calci"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <!-- Text view for result view-->
+
+    <TextView
+        android:id="@+id/textView_answer"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="330dp"
+        android:text="0"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        />
+
+    <!--take the input first number-->
+    <EditText
+        android:id="@+id/editText_first_no"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:inputType="text"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"/>
+    <!-- for message input first number-->
+    <TextView
+        android:id="@+id/textView_first_no"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:text="First no      :"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <!--view message -->
+    <TextView
+        android:id="@+id/textView_second_no"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="230dp"
+        android:text="Second no :"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <!-- take input for second number -->
+
+    <EditText
+        android:id="@+id/editText_second_no"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="230dp"
+        android:inputType="number"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        android:textColor="#FFFFFF"
+        />
+
+    <!-- button for run add logic and view result -->
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="400dp"
+        android:text="+"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:textColor="#166974"/>
+
+    <Button
+        android:id="@+id/sub_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="400dp"
+        android:text="-"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:textColor="#166974"/>
+
+    <Button
+        android:id="@+id/multi_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="480dp"
+        android:text="*"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:textColor="#166974"/>
+
+    <Button
+        android:id="@+id/div_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="480dp"
+        android:text="/"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:textColor="#166974"/>
+
+</RelativeLayout>
